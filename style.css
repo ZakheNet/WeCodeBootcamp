@@ -1,0 +1,101 @@
+@font-face {
+  font-family: bluez;
+  src: url(fonts/blue.ttf);
+}
+@font-face {
+  font-family: chan;
+  src: url(fonts/chan.TTF);
+}
+@font-face {
+  font-family: exo;
+  src: url(fonts/exo.TTF);
+}
+@font-face {
+  font-family: heavy;
+  src: url(fonts/heavy.ttf);
+}
+@font-face {
+  font-family: folder;
+  src: url(fonts/folder.ttf);
+}
+@font-face {
+  font-family: helsinki;
+  src: url(fonts/Helsinki.ttf);
+}
+@font-face {
+  font-family: gard;
+  src: url(fonts/Avgardd.ttf);
+}
+body .navbar-brand {
+  font-family: heavy;
+}
+body .navbar-nav {
+  font-family: gard;
+}
+body .tittle {
+  font-family: folder;
+}
+body .offertittle {
+  font-family: folder;
+  max-width: 10ch;
+}
+
+.background {
+  position: fixed;
+  filter: blur(0px);
+  z-index: -10;
+  height: 100vh;
+  background-image: url("/Images/bg.jpg");
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.background img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: blur(5px);
+}
+
+body section {
+  margin-top: 2rem;
+}
+body .offers {
+  width: 100%;
+}
+body .offers h2 {
+  align-self: flex-start;
+}
+body .offers div {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.carousel-item {
+  padding: 0;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+}
+.carousel-item img {
+  height: 100%;
+  justify-self: center;
+  width: 100vw;
+  aspect-ratio: 2/1;
+  max-height: 90vh;
+}
+.carousel-item .carousel-caption {
+  height: 80%;
+  text-shadow: 0 0 1rem black;
+}
+.carousel-item .carousel-caption h3 {
+  font-size: min(12vw, 90px);
+}
+.carousel-item .carousel-caption p {
+  font-size: min(5vw, 40px);
+  text-wrap: nowrap;
+  flex-shrink: 1;
+  flex-grow: 1;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,100 @@
+@font-face {
+   font-family: bluez;
+   src: url(fonts/blue.ttf);
+}
+@font-face {
+   font-family: chan;
+   src: url(fonts/chan.TTF);
+}
+
+@font-face {
+   font-family: exo;
+   src: url(fonts/exo.TTF);
+}
+
+@font-face {
+   font-family: heavy;
+   src: url(fonts/heavy.ttf);
+}
+
+@font-face {
+   font-family: folder;
+   src: url(fonts/folder.ttf);
+}
+
+@font-face {
+   font-family: helsinki;
+   src: url(fonts/Helsinki.ttf);
+}
+
+@font-face {
+   font-family: gard;
+   src: url(fonts/Avgardd.ttf);
+}
+
+body{
+   .navbar-brand{font-family:heavy;}
+   .navbar-nav{font-family:gard;}
+   .tittle{font-family: folder;}
+   .offertittle{font-family: folder;max-width: 10ch;}
+}
+
+
+.background{
+   position: fixed;filter: blur(0px);z-index: -10;
+   height: 100vh;
+   background-image: url("/Images/bg.jpg");
+   object-fit: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      filter: blur(5px);
+   }
+}
+
+body {
+   section{
+      margin-top: 2rem;
+      
+   }
+   .offers{
+      width: 100%;
+      h2{align-self: flex-start;}
+      div{max-width: fit-content;}
+   }
+}
+
+.carousel-item {
+   padding: 0;
+   max-height: fit-content;
+
+   img {
+      height: 100%;
+      justify-self: center;
+      width: 100vw;
+      aspect-ratio: 2/1;
+      max-height: 90vh;
+   }
+
+   .carousel-caption {
+      height: 80%;
+      text-shadow: 0 0 1rem black;
+      h3 {
+         font-size: min(12vw,90px);
+      }
+
+      p {
+         font-size: min(5vw,40px);
+         text-wrap: nowrap;
+         flex-shrink: 1;
+         flex-grow: 1;
+      }
+   }
+
+
+}
+
